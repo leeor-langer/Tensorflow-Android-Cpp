@@ -2,7 +2,7 @@
 
 ## Description
 A C++ library for running a Tensorflow compute graph,
-both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 with Tensorflow release 1.9, Bazel 0.16.1, gcc 7.3.0.
+both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 with Tensorflow release 1.9, Bazel 0.16.1.
 
 ## Instructions
 1. Create the following directory: tf_source/tensorflow/tensorflow/tools/tfwld
