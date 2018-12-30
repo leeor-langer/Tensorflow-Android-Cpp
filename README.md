@@ -13,7 +13,7 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 6. Change directory to tf_source/tensorflow
 7. Run commands below
 
-## To build/install/run
+## Build/ Install / Run
 
 ### On Android:
 
