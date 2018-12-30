@@ -51,5 +51,5 @@ bazel-bin/tensorflow/tools/tfwld/tfwld_inference --graph=/home/wld/Downloads/ges
 
 ```
 
-Note - THis project is based on the Tensorflow benchmark tool.
+Note - This project is based on the Tensorflow benchmark tool.
 
