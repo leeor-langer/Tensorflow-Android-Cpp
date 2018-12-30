@@ -13,7 +13,7 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 6. Change directory to tf_source/tensorflow
 7. Run commands below
 
-## Build/ Install / Run
+## Build / Install / Run
 
 ### On Android:
 
@@ -40,7 +40,7 @@ adb shell /data/local/tmp/tfwld \
   --graph=/data/local/tmp/my_model_0.pb 
 ```
 
-### On desktop:
+### On PC:
 (1) build the library
 ```
 bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' tensorflow/tools/tfwld:libTensorflowInference.so --verbose_failures
