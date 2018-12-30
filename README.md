@@ -24,33 +24,10 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' --crosstool_top=//external:android/crosstool --cpu=arm64-v8a --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --config monolithic tensorflow/tools/tfwld:libTensorflowInference.so
 ```
 
-(2) Connect your phone. Push the binary to your phone with adb push
-     (make the directory if required):
-```
-adb push /media/wld/HDD/tf_source/tensorflow/bazel-bin/tensorflow/tools/tfwld/tfwld /data/local/tmp
-```
-
-(3) Push the compute graph that you need to test. For example:
-```
-adb push /home/wld/Downloads/my_model_0.pb /data/local/tmp
-```
-(4) Run the benchmark. For example:
-```
-adb shell /data/local/tmp/tfwld \
-  --graph=/data/local/tmp/my_model_0.pb 
-```
-
 ### On PC:
-(1) build the library
+
 ```
 bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' tensorflow/tools/tfwld:libTensorflowInference.so --verbose_failures
-```
-
-(2) Run on your compute graph, similar to the Android case but without the need of adb shell.
-For example:
-```
-bazel-bin/tensorflow/tools/tfwld/tfwld_inference --graph=/home/wld/Downloads/my_model_0.pb 
-
 ```
 
 Note - This project is based on the Tensorflow benchmark tool. Compiled library is also available for download (arm-v8a)
