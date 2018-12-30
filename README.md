@@ -36,8 +36,9 @@ adb push /media/wld/HDD/tf_source/tensorflow/bazel-bin/tensorflow/tools/tfwld/tf
 (4) Run the benchmark. For example:
 ```
 adb shell /data/local/tmp/tfwld \
-  --graph=/data/local/tmp/gesturesopt_embedding_0.pb 
+  --graph=/data/local/tmp/my_model_0.pb 
 ```
+
 ### On desktop:
 (1) build the library
 ```
@@ -47,7 +48,7 @@ bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' tensorflow/tools/tfwld:l
 (2) Run on your compute graph, similar to the Android case but without the need of adb shell.
 For example:
 ```
-bazel-bin/tensorflow/tools/tfwld/tfwld_inference --graph=/home/wld/Downloads/gesturesopt_embedding_0.pb 
+bazel-bin/tensorflow/tools/tfwld/tfwld_inference --graph=/home/wld/Downloads/my_model_0.pb 
 
 ```
 
