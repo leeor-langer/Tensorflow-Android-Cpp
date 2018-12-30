@@ -1,4 +1,4 @@
-# TensorFlow Inference cross platform \ shared library
+# TensorFlow Inference (cross platform \ shared library)
 
 ## Description
 A C++ library for running a Tensorflow compute graph,
