@@ -53,5 +53,5 @@ bazel-bin/tensorflow/tools/tfwld/tfwld_inference --graph=/home/wld/Downloads/my_
 
 ```
 
-Note - This project is based on the Tensorflow benchmark tool.
+Note - This project is based on the Tensorflow benchmark tool. Compiled library is also available for download (arm-v8a)
 
