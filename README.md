@@ -10,7 +10,7 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 3. Make sure all installations are properly functioning (Tensorflow, Bazel, Clang, NDK).
 4. Change path in BUILD file to the correct path of --version-script (this path point to the file named TensorflowInference.lds) 
 5. Open command prompt from tf_source/tensorflow
-7. Run command below
+6. Run command below
 
 ## Build / Install / Run
 
