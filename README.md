@@ -1,7 +1,7 @@
 # TensorFlow Inference (cross platform \ shared library)
 
 ## Description
-A C++ library for running a Tensorflow compute graph,
+A C++ library for running a Tensorflow compute graph (run directly, no need for JNI as in libtensorflow_inference.so),
 both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 with Tensorflow release 1.9, Bazel 0.16.1.
 
 ## Instructions
