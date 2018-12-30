@@ -31,8 +31,9 @@ adb push /media/wld/HDD/tf_source/tensorflow/bazel-bin/tensorflow/tools/tfwld/tf
 ```
 
 (3) Push the compute graph that you need to test. For example:
-     adb push /home/wld/Downloads/gesturesopt_embedding_0.pb /data/local/tmp
-
+```
+adb push /home/wld/Downloads/gesturesopt_embedding_0.pb /data/local/tmp
+```
 (4) Run the benchmark. For example:
 ```
 adb shell /data/local/tmp/tfwld \
