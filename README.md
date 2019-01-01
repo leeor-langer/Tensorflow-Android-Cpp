@@ -8,7 +8,7 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 1. Create the following directory: tf_source/tensorflow/tensorflow/tools/tfwld. Place all files (except precompiled .so file and WORKSPACE) inside. 
 2. Place WORKSPACE file in tf_source/tensorflow. Note the NDK definitions (install location etc.) at the bottom of the file.
 3. Make sure all installations are properly functioning (Tensorflow, Bazel, Clang, NDK).
-4. Change path in BUILD file to the correct path of --version-script (this path point to the file named TensorflowInference.lds) 
+4. Change path in BUILD file to the correct path of --version-script (this path points to the file named TensorflowInference.lds) 
 5. Open command prompt from tf_source/tensorflow
 6. Run command below
 
