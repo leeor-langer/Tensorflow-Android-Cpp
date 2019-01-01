@@ -12,13 +12,13 @@ both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 wi
 5. Open command prompt from tf_source/tensorflow
 6. Run command below
 
-## Build / Install / Run
+## Build
 
 ### On Android:
 
 (0) Refer to https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android to edit the `WORKSPACE` to configure the android NDK/SDK.
 
-(1) build for your specific platform, e.g.:
+(1) build command:
 ```
 bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' --crosstool_top=//external:android/crosstool --cpu=arm64-v8a --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --config monolithic tensorflow/tools/tfwld:libTensorflowInference.so
 ```
