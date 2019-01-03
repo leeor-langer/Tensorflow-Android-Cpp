@@ -2,7 +2,7 @@
 
 ## Description
 A C++ library for running a Tensorflow compute graph (run directly, no need for JNI as in libtensorflow_inference.so),
-both on desktop machines and on Android. Compilation works for Ubuntu 18.04.1 with Tensorflow release 1.9, Bazel 0.16.1.
+both on desktop machines and on Android. Compilation extensively tested on Ubuntu 18.04.1 with Tensorflow release 1.9, Bazel 0.16.1.
 
 ## Instructions
 1. Create the following directory: tf_source/tensorflow/tensorflow/tools/tfwld. Place all files (except precompiled .so file and WORKSPACE) inside. 
