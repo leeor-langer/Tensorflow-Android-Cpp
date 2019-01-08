@@ -29,5 +29,5 @@ bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' --crosstool_top=//extern
 bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' tensorflow/tools/tfwld:libTensorflowInference.so --verbose_failures
 ```
 
-Note - This project is based on the Tensorflow benchmark tool. Compiled library is also available for download (arm-v8a)
-
+Note - This project is based on the Tensorflow benchmark tool. Compiled library is also available for download (arm-v8a).
+Check out https://getmudra.com in order to see why this project was born ...
