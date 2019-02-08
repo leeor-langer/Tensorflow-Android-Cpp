@@ -32,4 +32,4 @@ bazel build -c opt --copt="-fPIC" --cxxopt='-std=c++11' tensorflow/tools/tfwld:l
 Note - This project is based on the Tensorflow benchmark tool. Compiled library is also available for download (arm-v8a).
 Check out https://getmudra.com in order to see why this project was born ... 
 
-For more info see my blog https://medium.com/@leeor.langer/tensorflow-c-api-for-android-a0c55fe226e8for. 
+For more info see my blog https://medium.com/@leeor.langer/tensorflow-c-api-for-android-a0c55fe226e8. 
